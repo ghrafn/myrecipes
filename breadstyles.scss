@@ -1,0 +1,81 @@
+@import 'layout';
+@import 'header';
+
+/* svg logo */
+.myrecipes-logo {
+  padding-top: 1em;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+table td {
+  vertical-align: top;
+  padding-left: 1em;
+}
+
+
+
+/* card */
+.card img,
+table.recipies img {
+  width: 100%;
+  // padding-top: 2%;
+  padding-bottom: 2%;
+}
+.card p {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+table.recipies img {
+  max-height: 10em;
+}
+table.recipies {
+  overflow-x: auto;
+}
+
+/* svg logo lytir */
+/* recipes */
+.st0 {
+  fill: #681212;
+}
+/* my */
+.st1 {
+  fill: #c99c83;
+}
+
+/* grid lytir */
+.grid-container > article {
+  background: #782525;
+}
+.grid-container > article:hover,
+table.recipies tr:hover {
+  background: #922d2d;
+}
+.grid-container .item {
+  padding: 2em;
+}
+
+.mybutton {
+  background: #f7786b;
+  font-size: 0.75em;
+}
+
+/* background lytir */
+body {
+  background: #8b3f3f;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 20%;
+}
